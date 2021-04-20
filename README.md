@@ -6,7 +6,7 @@ OpenCore EFI for MSI Prestige 15 A10SC
 | ------------- | --------- |
 | CPU | Intel Comet Lake i7-10710u |
 | RAM | 32GB (2 x 16GB) Samsung DDR4 @2666MHz |
-| IGPU | Intel Graphics UHD 620	|
+| IGPU | Intel Graphics UHD 630	|
 | DGPU | Nvidia GTX1650 Max-Q |
 | Display | CMN N156HCE-EN1 FHD |
 | NVMe 1 | Kingston 512GB |
@@ -15,15 +15,15 @@ OpenCore EFI for MSI Prestige 15 A10SC
 | Wireless | DW1560 Broadcom BCM94352Z (default setting) / Intel AX201 |
 
 
-**OpenCore version**: [0.6.6](https://github.com/acidanthera/opencorepkg/releases)
+**OpenCore version**: [0.6.8](https://github.com/acidanthera/opencorepkg/releases)
 
 ## Compatible macOS versions
- - Big Sur (11.1)
+ - Big Sur (11.2.3)
 
 ## What Works
  - Wi-Fi : DW1560 (out of the box) / Intel AX201 (see workaround)
  - Bluetooth
- - HDMI/DisplayPort
+ - HDMI (thanks to @vomesk)
  - Internal/External audio jacks
  - Sleep/Wake up
 
@@ -57,27 +57,27 @@ OpenCore EFI for MSI Prestige 15 A10SC
 - Move your OpenCore EFI folder to a MacOS drive: https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html#grabbing-opencore-off-the-usb
 
 ## Hints
-- SIP has been disabled permanently : csr-active-config = FF070000
 - If you've dual boot:
-	- To enable macOS-only SMBIOS injection:
+	- To enable macOS-only SMBIOS injection (disabled for Windows 10):
 		- Kernel → Quirks → CustomSMBIOSGuid → True
-		- Platforminfo → CustomSMBIOSMode → Custom
+		- Platforminfo → UpdateSMBIOSMode → Custom
 	- To have UTC clock and fix Windows 10 issues : DualBoot/UniversalTimeFix.reg
 	- Disable Fast Boot on Windows 10 : DualBoot/DisableFastBoot.reg
 	- NTFS r/w support : brew install --cask osxfuse; brew install --cask mounty
 
 ## Credits
- - [[Kext] Lilu v1.5.1](https://github.com/acidanthera/Lilu)
- - [[Kext] VirtualSMC v1.2.0](https://github.com/acidanthera/VirtualSMC)
- - [[Kext] WhateverGreen v1.4.7](https://github.com/acidanthera/WhateverGreen)
- - [[Kext] AppleALC v1.5.7](https://github.com/acidanthera/AppleALC)
- - [[Kext] VoodooPS2Controller v2.2.1](https://github.com/acidanthera/VoodooPS2)
- - [[Kext] VoodooI2C v2.2.1](https://github.com/VoodooI2C/VoodooI2C)
+ - [[Kext] Lilu v1.5.2](https://github.com/acidanthera/Lilu)
+ - [[Kext] VirtualSMC v1.2.2](https://github.com/acidanthera/VirtualSMC)
+ - [[Kext] WhateverGreen v1.4.9](https://github.com/acidanthera/WhateverGreen)
+ - [[Kext] AppleALC v1.5.9](https://github.com/acidanthera/AppleALC)
+ - [[Kext] VoodooPS2Controller v2.2.2](https://github.com/acidanthera/VoodooPS2)
+ - [[Kext] VoodooI2C v2.6.5](https://github.com/VoodooI2C/VoodooI2C)
  - [[Kext] CPUFriend v1.2.3](https://github.com/acidanthera/CPUFriend)
  - [[Kext] NoTouchID v1.0.4](https://github.com/al3xtjames/NoTouchID)
- - [[Kext] NVMeFix v1.0.5](https://github.com/acidanthera/NVMeFix)
- - [[Kext] USBInjectAll v0.7.5](https://github.com/Sniki/OS-X-USB-Inject-All)
+ - [[Kext] NVMeFix v1.0.6](https://github.com/acidanthera/NVMeFix)
+ - [[Kext] USBInjectAll v0.7.6](https://github.com/Sniki/OS-X-USB-Inject-All)
  - [[Kext] AirportBrcmFixup v2.1.2](https://github.com/acidanthera/AirportBrcmFixup)
+ - [[Kext] BrcmPatchRAM v2.5.8](https://github.com/acidanthera/BrcmPatchRAM)
  - [[Kext] itlwm v1.2.0](https://github.com/OpenIntelWireless/itlwm)
  - [[Kext] IntelBluetoothFirmware v1.1.2](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
  - [[Kext] IntelBluetoothInjector v1.1.2](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
