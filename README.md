@@ -65,6 +65,13 @@ OpenCore EFI for MSI Prestige 15 A10SC
 	- Disable Fast Boot on Windows 10 : DualBoot/DisableFastBoot.reg
 	- NTFS r/w support : brew install --cask osxfuse; brew install --cask mounty
 
+## BlueTooth fix after sleep/wakeup
+	- brew install blueutil
+	- brew install sleepwatcher
+	- echo "blueutil -p 0 && sleep 1 && blueutil -p 1" > ~/.wakeup
+	- sudo ln -s /usr/local/Cellar/sleepwatcher/2.2.1/de.bernhard-baehr.sleepwatcher-20compatibility.plist /Library/LaunchDaemons
+	- reboot
+
 ## Credits
  - [[Kext] Lilu v1.5.2](https://github.com/acidanthera/Lilu)
  - [[Kext] VirtualSMC v1.2.2](https://github.com/acidanthera/VirtualSMC)
