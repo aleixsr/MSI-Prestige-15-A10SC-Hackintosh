@@ -70,8 +70,10 @@ OpenCore EFI for MSI Prestige 15 A10SC
 	- brew install sleepwatcher
 	- echo "blueutil -p 0 && sleep 1 && blueutil -p 1" > ~/.wakeup
 	- chmod +x ~/.wakeup
-	- sudo ln -s /usr/local/Cellar/sleepwatcher/2.2.1/de.bernhard-baehr.sleepwatcher-20compatibility.plist /Library/LaunchDaemons
-	- reboot
+	- sudo cp -avi /usr/local/Cellar/sleepwatcher/2.2.1/de.bernhard-baehr.sleepwatcher-20compatibility.plist /Library/LaunchDaemons/
+	- sudo chown root:wheel /Library/LaunchDaemons/de.bernhard-baehr.sleepwatcher-20compatibility.plist
+	- sudo reboot
+	- ps -ef | grep -i sleepwatcher
 
 ## Credits
  - [[Kext] Lilu v1.5.3](https://github.com/acidanthera/Lilu)
