@@ -69,23 +69,24 @@ OpenCore EFI for MSI Prestige 15 A10SC
 	- brew install blueutil
 	- brew install sleepwatcher
 	- echo "blueutil -p 0 && sleep 1 && blueutil -p 1" > ~/.wakeup
+	- chmod +x ~/.wakeup
 	- sudo ln -s /usr/local/Cellar/sleepwatcher/2.2.1/de.bernhard-baehr.sleepwatcher-20compatibility.plist /Library/LaunchDaemons
 	- reboot
 
 ## Credits
- - [[Kext] Lilu v1.5.2](https://github.com/acidanthera/Lilu)
- - [[Kext] VirtualSMC v1.2.2](https://github.com/acidanthera/VirtualSMC)
+ - [[Kext] Lilu v1.5.3](https://github.com/acidanthera/Lilu)
+ - [[Kext] VirtualSMC v1.2.3](https://github.com/acidanthera/VirtualSMC)
  - [[Kext] WhateverGreen v1.4.9](https://github.com/acidanthera/WhateverGreen)
- - [[Kext] AppleALC v1.5.9](https://github.com/acidanthera/AppleALC)
- - [[Kext] VoodooPS2Controller v2.2.2](https://github.com/acidanthera/VoodooPS2)
+ - [[Kext] AppleALC v1.6.0](https://github.com/acidanthera/AppleALC)
+ - [[Kext] VoodooPS2Controller v2.2.3](https://github.com/acidanthera/VoodooPS2)
  - [[Kext] VoodooI2C v2.6.5](https://github.com/VoodooI2C/VoodooI2C)
  - [[Kext] CPUFriend v1.2.3](https://github.com/acidanthera/CPUFriend)
  - [[Kext] NoTouchID v1.0.4](https://github.com/al3xtjames/NoTouchID)
- - [[Kext] NVMeFix v1.0.6](https://github.com/acidanthera/NVMeFix)
+ - [[Kext] NVMeFix v1.0.7](https://github.com/acidanthera/NVMeFix)
  - [[Kext] USBInjectAll v0.7.6](https://github.com/Sniki/OS-X-USB-Inject-All)
  - [[Kext] AirportBrcmFixup v2.1.2](https://github.com/acidanthera/AirportBrcmFixup)
  - [[Kext] BrcmPatchRAM v2.5.8](https://github.com/acidanthera/BrcmPatchRAM)
- - [[Kext] itlwm v1.2.0](https://github.com/OpenIntelWireless/itlwm)
+ - [[Kext] itlwm v1.3.0](https://github.com/OpenIntelWireless/itlwm)
  - [[Kext] IntelBluetoothFirmware v1.1.2](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
  - [[Kext] IntelBluetoothInjector v1.1.2](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
 
