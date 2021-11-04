@@ -8,17 +8,17 @@ OpenCore EFI for MSI Prestige 15 A10SC
 | RAM | 32GB (2 x 16GB) Samsung DDR4 @2666MHz |
 | IGPU | Intel Graphics UHD 630	|
 | DGPU | Nvidia GTX1650 Max-Q |
-| Display | CMN N156HCE-EN1 FHD |
+| Display | CMN N156HCE-EN1 FHD / Sharp SHP14A1 15.6' 3840x2160(4K) |
 | NVMe 1 | Kingston 512GB |
 | NVMe 2 | Kingston 512GB |
 | Audio | Realtek ACL298 |
 | Wireless | DW1560 Broadcom BCM94352Z (default setting) / Intel AX201 |
 
 
-**OpenCore version**: [0.6.9](https://github.com/acidanthera/opencorepkg/releases)
+**OpenCore version**: [0.7.5](https://github.com/acidanthera/opencorepkg/releases)
 
 ## Compatible macOS versions
- - Big Sur (11.5.2)
+ - Big Sur (11.6)
 
 ## What Works
  - Wi-Fi : DW1560 (out of the box) / Intel AX201 (see workaround)
@@ -76,22 +76,22 @@ OpenCore EFI for MSI Prestige 15 A10SC
 	- ps -ef | grep -i sleepwatcher
 
 ## Credits
- - [[Kext] Lilu v1.5.6](https://github.com/acidanthera/Lilu)
- - [[Kext] WhateverGreen v1.5.3](https://github.com/acidanthera/WhateverGreen)
- - [[Kext] VirtualSMC/SMCBatteryManager/SMCProcessor/SMCSuperIO v1.2.7](https://github.com/acidanthera/VirtualSMC)
- - [[Kext] AppleALC v1.6.4](https://github.com/acidanthera/AppleALC)
+ - [[Kext] Lilu v1.5.7](https://github.com/acidanthera/Lilu)
+ - [[Kext] WhateverGreen v1.5.5](https://github.com/acidanthera/WhateverGreen)
+ - [[Kext] VirtualSMC/SMCBatteryManager/SMCProcessor/SMCSuperIO/SMCLightSensor v1.2.8](https://github.com/acidanthera/VirtualSMC)
+ - [[Kext] AppleALC v1.6.6](https://github.com/acidanthera/AppleALC)
  - [[Kext] VerbStub v1.0.4](https://github.com/hackintosh-stuff/ComboJack/tree/master/ComboJack_Installer)
- - [[Kext] VoodooPS2Controller v2.2.5](https://github.com/acidanthera/VoodooPS2)
+ - [[Kext] VoodooPS2Controller v2.2.7](https://github.com/acidanthera/VoodooPS2)
  - [[Kext] VoodooI2C v2.6.5](https://github.com/VoodooI2C/VoodooI2C)
- - [[Kext] CPUFriend v1.2.4](https://github.com/acidanthera/CPUFriend)
+ - [[Kext] CPUFriend v1.2.5](https://github.com/acidanthera/CPUFriend)
  - [[Kext] NoTouchID v1.0.4](https://github.com/al3xtjames/NoTouchID)
- - [[Kext] NVMeFix v1.0.9](https://github.com/acidanthera/NVMeFix)
- - [[Kext] IOElectrify v0.0.1](https://github.com/the-darkvoid/macOS-IOElectrify)
+ - [[Kext] NVMeFix v1.1.0](https://github.com/acidanthera/NVMeFix)
+ - [[Kext] IOElectrify v1.0.0](https://github.com/the-darkvoid/macOS-IOElectrify)
  - [[Kext] USBInjectAll v0.7.6](https://github.com/Sniki/OS-X-USB-Inject-All)
- - [[Kext] AirportBrcmFixup v2.1.3](https://github.com/acidanthera/AirportBrcmFixup)
- - [[Kext] BrcmPatchRAM v2.6.0](https://github.com/acidanthera/BrcmPatchRAM)
+ - [[Kext] AirportBrcmFixup v2.1.4](https://github.com/acidanthera/AirportBrcmFixup)
+ - [[Kext] BrcmPatchRAM v2.6.1](https://github.com/acidanthera/BrcmPatchRAM)
  - [[Kext] itlwm v2.0.0](https://github.com/OpenIntelWireless/itlwm)
- - [[Kext] IntelBluetoothFirmware v2.0.0](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
+ - [[Kext] IntelBluetoothFirmware v2.0.1](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
 
 
 
