@@ -18,7 +18,8 @@ OpenCore EFI for MSI Prestige 15 A10SC
 **OpenCore version**: [0.7.5](https://github.com/acidanthera/opencorepkg/releases)
 
 ## Compatible macOS versions
- - Big Sur (11.6)
+ - Monterey (12.2.1)
+ - Big Sur (11.6.1)
 
 ## What Works
  - Wi-Fi : DW1560 (out of the box) / Intel AX201 (see workaround)
@@ -76,10 +77,10 @@ OpenCore EFI for MSI Prestige 15 A10SC
 	- ps -ef | grep -i sleepwatcher
 
 ## Credits
- - [[Kext] Lilu v1.5.7](https://github.com/acidanthera/Lilu)
- - [[Kext] WhateverGreen v1.5.5](https://github.com/acidanthera/WhateverGreen)
+ - [[Kext] Lilu v1.6.0](https://github.com/acidanthera/Lilu)
+ - [[Kext] WhateverGreen v1.5.7](https://github.com/acidanthera/WhateverGreen)
  - [[Kext] VirtualSMC/SMCBatteryManager/SMCProcessor/SMCSuperIO/SMCLightSensor v1.2.8](https://github.com/acidanthera/VirtualSMC)
- - [[Kext] AppleALC v1.6.6](https://github.com/acidanthera/AppleALC)
+ - [[Kext] AppleALC v1.6.9](https://github.com/acidanthera/AppleALC)
  - [[Kext] VerbStub v1.0.4](https://github.com/hackintosh-stuff/ComboJack/tree/master/ComboJack_Installer)
  - [[Kext] VoodooPS2Controller v2.2.7](https://github.com/acidanthera/VoodooPS2)
  - [[Kext] VoodooI2C v2.6.5](https://github.com/VoodooI2C/VoodooI2C)
@@ -89,9 +90,9 @@ OpenCore EFI for MSI Prestige 15 A10SC
  - [[Kext] IOElectrify v1.0.0](https://github.com/the-darkvoid/macOS-IOElectrify)
  - [[Kext] USBInjectAll v0.7.6](https://github.com/Sniki/OS-X-USB-Inject-All)
  - [[Kext] AirportBrcmFixup v2.1.4](https://github.com/acidanthera/AirportBrcmFixup)
- - [[Kext] BrcmPatchRAM v2.6.1](https://github.com/acidanthera/BrcmPatchRAM)
- - [[Kext] itlwm v2.0.0](https://github.com/OpenIntelWireless/itlwm)
- - [[Kext] IntelBluetoothFirmware v2.0.1](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
+ - [[Kext] BrcmPatchRAM v2.6.2](https://github.com/acidanthera/BrcmPatchRAM)
+ - [[Kext] itlwm v2.1.0](https://github.com/OpenIntelWireless/itlwm)
+ - [[Kext] IntelBluetoothFirmware v2.1.0](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
 
 
 
