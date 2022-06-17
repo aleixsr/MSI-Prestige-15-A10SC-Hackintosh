@@ -15,7 +15,7 @@ OpenCore EFI for MSI Prestige 15 A10SC
 | Wireless | DW1560 Broadcom BCM94352Z (default setting) / Intel AX201 |
 
 
-**OpenCore version**: [0.7.5](https://github.com/acidanthera/opencorepkg/releases)
+**OpenCore version**: [0.8.1](https://github.com/acidanthera/opencorepkg/releases)
 
 ## Compatible macOS versions
  - Monterey (12.2.1)
@@ -78,18 +78,18 @@ OpenCore EFI for MSI Prestige 15 A10SC
 
 ## Credits
  - [[Kext] Lilu v1.6.0](https://github.com/acidanthera/Lilu)
- - [[Kext] WhateverGreen v1.5.7](https://github.com/acidanthera/WhateverGreen)
- - [[Kext] VirtualSMC/SMCBatteryManager/SMCProcessor/SMCSuperIO/SMCLightSensor v1.2.8](https://github.com/acidanthera/VirtualSMC)
- - [[Kext] AppleALC v1.6.9](https://github.com/acidanthera/AppleALC)
+ - [[Kext] WhateverGreen v1.5.9](https://github.com/acidanthera/WhateverGreen)
+ - [[Kext] VirtualSMC/SMCBatteryManager/SMCProcessor/SMCSuperIO/SMCLightSensor v1.2.9](https://github.com/acidanthera/VirtualSMC)
+ - [[Kext] AppleALC v1.7.2](https://github.com/acidanthera/AppleALC)
  - [[Kext] VerbStub v1.0.4](https://github.com/hackintosh-stuff/ComboJack/tree/master/ComboJack_Installer)
- - [[Kext] VoodooPS2Controller v2.2.7](https://github.com/acidanthera/VoodooPS2)
- - [[Kext] VoodooI2C v2.6.5](https://github.com/VoodooI2C/VoodooI2C)
+ - [[Kext] VoodooPS2Controller v2.2.8](https://github.com/acidanthera/VoodooPS2)
+ - [[Kext] VoodooI2C v2.7.0](https://github.com/VoodooI2C/VoodooI2C)
  - [[Kext] CPUFriend v1.2.5](https://github.com/acidanthera/CPUFriend)
  - [[Kext] NoTouchID v1.0.4](https://github.com/al3xtjames/NoTouchID)
  - [[Kext] NVMeFix v1.1.0](https://github.com/acidanthera/NVMeFix)
  - [[Kext] IOElectrify v1.0.0](https://github.com/the-darkvoid/macOS-IOElectrify)
  - [[Kext] USBInjectAll v0.7.6](https://github.com/Sniki/OS-X-USB-Inject-All)
- - [[Kext] AirportBrcmFixup v2.1.4](https://github.com/acidanthera/AirportBrcmFixup)
+ - [[Kext] AirportBrcmFixup v2.1.5](https://github.com/acidanthera/AirportBrcmFixup)
  - [[Kext] BrcmPatchRAM v2.6.2](https://github.com/acidanthera/BrcmPatchRAM)
  - [[Kext] itlwm v2.1.0](https://github.com/OpenIntelWireless/itlwm)
  - [[Kext] IntelBluetoothFirmware v2.1.0](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
