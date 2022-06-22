@@ -18,8 +18,7 @@ OpenCore EFI for MSI Prestige 15 A10SC
 **OpenCore version**: [0.8.1](https://github.com/acidanthera/opencorepkg/releases)
 
 ## Compatible macOS versions
- - Monterey (12.2.1)
- - Big Sur (11.6.1)
+ - Monterey (12.4)
 
 ## What Works
  - Wi-Fi : DW1560 (out of the box) / Intel AX201 (see workaround)
