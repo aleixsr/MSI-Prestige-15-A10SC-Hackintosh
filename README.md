@@ -15,10 +15,10 @@ OpenCore EFI for MSI Prestige 15 A10SC
 | Wireless | DW1560 Broadcom BCM94352Z (default setting) / Intel AX201 |
 
 
-**OpenCore version**: [0.8.5](https://github.com/acidanthera/opencorepkg/releases)
+**OpenCore version**: [0.8.8](https://github.com/acidanthera/opencorepkg/releases)
 
 ## Compatible macOS versions
- - Monterey (12.6)
+ - Monterey (12.6.2)
 
 ## What Works
  - Wi-Fi : DW1560 (out of the box) / Intel AX201
@@ -73,16 +73,16 @@ OpenCore EFI for MSI Prestige 15 A10SC
 	- ps -ef | grep -i sleepwatcher
 
 ## Credits
- - [[Kext] Lilu v1.6.2](https://github.com/acidanthera/Lilu)
- - [[Kext] WhateverGreen v1.6.1](https://github.com/acidanthera/WhateverGreen)
- - [[Kext] VirtualSMC/SMCBatteryManager/SMCProcessor/SMCSuperIO/SMCLightSensor v1.3.0](https://github.com/acidanthera/VirtualSMC)
- - [[Kext] AppleALC v1.7.5](https://github.com/acidanthera/AppleALC)
+ - [[Kext] Lilu v1.6.3(https://github.com/acidanthera/Lilu)
+ - [[Kext] WhateverGreen v1.6.3](https://github.com/acidanthera/WhateverGreen)
+ - [[Kext] VirtualSMC/SMCBatteryManager/SMCProcessor/SMCSuperIO/SMCLightSensor v1.3.1](https://github.com/acidanthera/VirtualSMC)
+ - [[Kext] AppleALC v1.7.8](https://github.com/acidanthera/AppleALC)
  - [[Kext] VerbStub v1.0.4](https://github.com/hackintosh-stuff/ComboJack/tree/master/ComboJack_Installer)
- - [[Kext] VoodooPS2Controller v2.3.1](https://github.com/acidanthera/VoodooPS2)
- - [[Kext] VoodooI2C v2.7.0](https://github.com/VoodooI2C/VoodooI2C)
+ - [[Kext] VoodooPS2Controller v2.3.3](https://github.com/acidanthera/VoodooPS2)
+ - [[Kext] VoodooI2C v2.7.1](https://github.com/VoodooI2C/VoodooI2C)
  - [[Kext] CPUFriend v1.2.6](https://github.com/acidanthera/CPUFriend)
  - [[Kext] NoTouchID v1.0.4](https://github.com/al3xtjames/NoTouchID)
- - [[Kext] NVMeFix v1.1.0](https://github.com/acidanthera/NVMeFix)
+ - [[Kext] NVMeFix v1.1.1](https://github.com/acidanthera/NVMeFix)
  - [[Kext] IOElectrify v1.0.0](https://github.com/the-darkvoid/macOS-IOElectrify)
  - [[Kext] USBInjectAll v0.7.6](https://github.com/Sniki/OS-X-USB-Inject-All)
  - [[Kext] AirportBrcmFixup v2.1.6](https://github.com/acidanthera/AirportBrcmFixup)
