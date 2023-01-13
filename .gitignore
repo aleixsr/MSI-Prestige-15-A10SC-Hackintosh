@@ -1,4 +1,5 @@
-
+.gitignore
 .DS_Store
 EFI/BOOT/.contentFlavour
+EFI/BOOT/.contentVisibility
 EFI/OC/.contentFlavour
