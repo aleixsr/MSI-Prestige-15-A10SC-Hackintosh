@@ -18,7 +18,8 @@ OpenCore EFI for MSI Prestige 15 A10SC
 **OpenCore version**: [0.8.8](https://github.com/acidanthera/opencorepkg/releases)
 
 ## Compatible macOS versions
- - Monterey (12.6.2)
+ - Ventura (13.3.1)
+ - Monterey (12.6.5)
 
 ## What Works
  - Wi-Fi : DW1560 (out of the box) / Intel AX201
@@ -67,35 +68,36 @@ OpenCore EFI for MSI Prestige 15 A10SC
 	- brew install sleepwatcher
 	- echo "blueutil -p 0 && sleep 1 && blueutil -p 1" > ~/.wakeup
 	- chmod +x ~/.wakeup
-	- sudo cp -avi /usr/local/Cellar/sleepwatcher/2.2.1/de.bernhard-baehr.sleepwatcher-20compatibility.plist /Library/LaunchDaemons/
-	- sudo chown root:wheel /Library/LaunchDaemons/de.bernhard-baehr.sleepwatcher-20compatibility.plist
-	- sudo reboot
+	- more ~/Library/LaunchAgents/homebrew.mxcl.sleepwatcher.plist
+	- brew services restart sleepwatcher
 	- ps -ef | grep -i sleepwatcher
 
+## Audio jack noise fix after sleep/wakeup
+	- ComboJack_Installer/install.sh
+
 ## Credits
- - [[Kext] Lilu v1.6.3(https://github.com/acidanthera/Lilu)
- - [[Kext] WhateverGreen v1.6.3](https://github.com/acidanthera/WhateverGreen)
+ - [[Kext] Lilu v1.6.4](https://github.com/acidanthera/Lilu)
+ - [[Kext] WhateverGreen v1.6.4](https://github.com/acidanthera/WhateverGreen)
  - [[Kext] VirtualSMC/SMCBatteryManager/SMCProcessor/SMCSuperIO/SMCLightSensor v1.3.1](https://github.com/acidanthera/VirtualSMC)
- - [[Kext] AppleALC v1.7.8](https://github.com/acidanthera/AppleALC)
+ - [[Kext] AppleALC v1.8.1](https://github.com/acidanthera/AppleALC)
  - [[Kext] VerbStub v1.0.4](https://github.com/hackintosh-stuff/ComboJack/tree/master/ComboJack_Installer)
- - [[Kext] VoodooPS2Controller v2.3.3](https://github.com/acidanthera/VoodooPS2)
- - [[Kext] VoodooI2C v2.7.1](https://github.com/VoodooI2C/VoodooI2C)
+ - [[Kext] VoodooPS2Controller v2.3.5](https://github.com/acidanthera/VoodooPS2)
+ - [[Kext] VoodooI2C v2.8](https://github.com/VoodooI2C/VoodooI2C)
  - [[Kext] CPUFriend v1.2.6](https://github.com/acidanthera/CPUFriend)
  - [[Kext] NoTouchID v1.0.4](https://github.com/al3xtjames/NoTouchID)
  - [[Kext] NVMeFix v1.1.1](https://github.com/acidanthera/NVMeFix)
  - [[Kext] IOElectrify v1.0.0](https://github.com/the-darkvoid/macOS-IOElectrify)
- - [[Kext] USBInjectAll v0.7.6](https://github.com/Sniki/OS-X-USB-Inject-All)
- - [[Kext] AirportBrcmFixup v2.1.6](https://github.com/acidanthera/AirportBrcmFixup)
- - [[Kext] BrcmPatchRAM v2.6.4](https://github.com/acidanthera/BrcmPatchRAM)
+ - [[Kext] AirportBrcmFixup v2.1.7](https://github.com/acidanthera/AirportBrcmFixup)
+ - [[Kext] BrcmPatchRAM v2.6.5](https://github.com/acidanthera/BrcmPatchRAM)
  - [[Kext] AirportItlwm v2.2.0](https://github.com/OpenIntelWireless/itlwm)
  - [[Kext] IntelBluetoothFirmware v2.2.0](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
 
 
 
 ## Special Thanks to...
- - https://github.com/naturalBlacksmith/hackintosh-msi-prestige-15
  - https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh
  - https://github.com/wgjas2/MSI-Prestige-15-Hackintosh
+ - https://github.com/ueh-oaug/ComboJack
 
 
 # Hackitosh Apps
@@ -117,13 +119,13 @@ OpenCore EFI for MSI Prestige 15 A10SC
 - XtraFinder : https://www.trankynam.com/xtrafinder/
 - HyperDock : brew install --cask hyperdock
 - HyperSwitch : brew install --cask hyperswitch
-- CopyQ : brew install --cask copyq
+- Shottr : brew install --cask maccy
 - Caffeine : brew install --cask caffeine
 - iStat Menus : brew install --cask istat-menus
 - Keka : brew install --cask keka
-- Lightshot Screenshot : https://app.prntscr.com/es/download.html
+- Shottr Screenshot : brew install --cask shottr
 - MonitorControl : brew install --cask monitorcontrol
 - Numi : brew install --cask numi
-- PingMenu : brew install --cask pingmenu
+- Pingu : https://github.com/attheodo/Pingu
 - Tunnelblick : brew install --cask tunnelblick
 - Sublime Text : brew install --cask sublime-text
