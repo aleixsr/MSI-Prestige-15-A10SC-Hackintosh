@@ -15,7 +15,7 @@ OpenCore EFI for MSI Prestige 15 A10SC
 | Wireless | DW1560 Broadcom BCM94352Z (default setting) / Intel AX201 |
 
 
-**OpenCore version**: [0.8.8](https://github.com/acidanthera/opencorepkg/releases)
+**OpenCore version**: [0.9.1](https://github.com/acidanthera/opencorepkg/releases)
 
 ## Compatible macOS versions
  - Ventura (13.3.1)
