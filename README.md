@@ -18,8 +18,8 @@ OpenCore EFI for MSI Prestige 15 A10SC
 **OpenCore version**: [0.9.1](https://github.com/acidanthera/opencorepkg/releases)
 
 ## Compatible macOS versions
- - Ventura (13.3.1)
- - Monterey (12.6.5)
+ - Ventura (13.5)
+ - Monterey (12.6.8)
 
 ## What Works
  - Wi-Fi : DW1560 (out of the box) / Intel AX201
@@ -33,7 +33,7 @@ OpenCore EFI for MSI Prestige 15 A10SC
  - Fingerprint Reader Synaptics WBDI
  - Card Reader Realtek RTS5250 PCI-E
 
-
+<a href="https://www.buymeacoffee.com/aleixsr" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 ## How to use
   1. Make your USB installer with [**this guide**](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/)
@@ -76,21 +76,21 @@ OpenCore EFI for MSI Prestige 15 A10SC
 	- ComboJack_Installer/install.sh
 
 ## Credits
- - [[Kext] Lilu v1.6.4](https://github.com/acidanthera/Lilu)
- - [[Kext] WhateverGreen v1.6.4](https://github.com/acidanthera/WhateverGreen)
- - [[Kext] VirtualSMC/SMCBatteryManager/SMCProcessor/SMCSuperIO/SMCLightSensor v1.3.1](https://github.com/acidanthera/VirtualSMC)
- - [[Kext] AppleALC v1.8.1](https://github.com/acidanthera/AppleALC)
+ - [[Kext] Lilu v1.6.7](https://github.com/acidanthera/Lilu)
+ - [[Kext] WhateverGreen v1.6.6](https://github.com/acidanthera/WhateverGreen)
+ - [[Kext] VirtualSMC/SMCBatteryManager/SMCProcessor/SMCSuperIO/SMCLightSensor v1.3.3](https://github.com/acidanthera/VirtualSMC)
+ - [[Kext] AppleALC v1.8.4](https://github.com/acidanthera/AppleALC)
  - [[Kext] VerbStub v1.0.4](https://github.com/hackintosh-stuff/ComboJack/tree/master/ComboJack_Installer)
- - [[Kext] VoodooPS2Controller v2.3.5](https://github.com/acidanthera/VoodooPS2)
+ - [[Kext] VoodooPS2Controller v2.3.6](https://github.com/acidanthera/VoodooPS2)
  - [[Kext] VoodooI2C v2.8](https://github.com/VoodooI2C/VoodooI2C)
- - [[Kext] CPUFriend v1.2.6](https://github.com/acidanthera/CPUFriend)
+ - [[Kext] CPUFriend v1.2.8](https://github.com/acidanthera/CPUFriend)
  - [[Kext] NoTouchID v1.0.4](https://github.com/al3xtjames/NoTouchID)
  - [[Kext] NVMeFix v1.1.1](https://github.com/acidanthera/NVMeFix)
  - [[Kext] IOElectrify v1.0.0](https://github.com/the-darkvoid/macOS-IOElectrify)
- - [[Kext] AirportBrcmFixup v2.1.7](https://github.com/acidanthera/AirportBrcmFixup)
- - [[Kext] BrcmPatchRAM v2.6.5](https://github.com/acidanthera/BrcmPatchRAM)
+ - [[Kext] AirportBrcmFixup v2.1.8](https://github.com/acidanthera/AirportBrcmFixup)
+ - [[Kext] BrcmPatchRAM/BlueToolFixup v2.6.8](https://github.com/acidanthera/BrcmPatchRAM)
  - [[Kext] AirportItlwm v2.2.0](https://github.com/OpenIntelWireless/itlwm)
- - [[Kext] IntelBluetoothFirmware v2.2.0](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
+ - [[Kext] IntelBluetoothFirmware v2.3.0](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
 
 
 
