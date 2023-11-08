@@ -1,0 +1,74 @@
+{
+    "title": "Home and End [except RDP, VMs, iTerm2 and Excel] (v23.09.28)",
+    "rules": [
+      {
+        "description": "Home and End [except RDP, VMs, iTerm2 and Excel]",
+        "manipulators": [
+          {
+            "from": {
+              "key_code": "home",
+              "modifiers": {
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "key_code": "left_arrow",
+                "modifiers": [
+                  "left_gui"
+                ],
+                "repeat": true
+              }
+            ],
+            "type": "basic",
+            "conditions": [
+              {
+                "type": "frontmost_application_unless",
+                "bundle_identifiers": [
+                  "^com\\.lemonmojo\\.RoyalTSX\\.App$",
+                  "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                  "^com\\.vmware\\.fusion$",
+                  "^com\\.googlecode\\.iterm2$",
+                  "^com\\.microsoft\\.Excel$"
+                ]
+              }
+            ]
+          },
+          {
+            "from": {
+              "key_code": "end",
+              "modifiers": {
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "key_code": "right_arrow",
+                "modifiers": [
+                  "left_gui"
+                ],
+                "repeat": true
+              }
+            ],
+            "type": "basic",
+            "conditions": [
+              {
+                "type": "frontmost_application_unless",
+                "bundle_identifiers": [
+                  "^com\\.lemonmojo\\.RoyalTSX\\.App$",
+                  "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                  "^com\\.vmware\\.fusion$",
+                  "^com\\.googlecode\\.iterm2$",
+                  "^com\\.microsoft\\.Excel$"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

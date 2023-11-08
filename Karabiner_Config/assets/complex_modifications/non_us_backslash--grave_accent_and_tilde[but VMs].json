@@ -1,0 +1,62 @@
+{
+    "title": "non_us_backslash--grave_accent_and_tilde[but VMs]  (v23.09.28)",
+    "rules": [
+      {
+        "description": "non_us_backslash(\\) <--> Less/greater than(<>) [but VMs]",
+        "manipulators": [
+          {
+            "from": {
+              "key_code": "non_us_backslash",
+              "modifiers": {
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "key_code": "grave_accent_and_tilde",
+                "repeat": true
+              }
+            ],
+            "type": "basic",
+            "conditions": [
+              {
+                "type": "frontmost_application_unless",
+                "bundle_identifiers": [
+                  "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                  "^com\\.vmware\\.fusion$"
+                ]
+              }
+            ]
+          },
+          {
+            "from": {
+              "key_code": "grave_accent_and_tilde",
+              "modifiers": {
+                "optional": [
+                  "any"
+                ]
+              }
+            },
+            "to": [
+              {
+                "key_code": "non_us_backslash",
+                "repeat": true
+              }
+            ],
+            "type": "basic",
+            "conditions": [
+              {
+                "type": "frontmost_application_unless",
+                "bundle_identifiers": [
+                  "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                  "^com\\.vmware\\.fusion$"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

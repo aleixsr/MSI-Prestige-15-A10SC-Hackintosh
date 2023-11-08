@@ -1,0 +1,21 @@
+{
+    "title": "F13 --> Print Screen (v23.09.28)",
+    "rules": [
+        {
+            "description": "F13 --> Print Screen",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {},
+                    "to": [
+                        {
+                            "repeat": true,
+                            "consumer_key_code": "",
+                            "key_code": "print_screen"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

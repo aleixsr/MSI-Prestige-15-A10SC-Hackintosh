@@ -3,3 +3,4 @@
 EFI/BOOT/.contentFlavour
 EFI/BOOT/.contentVisibility
 EFI/OC/.contentFlavour
+*.DS_Store

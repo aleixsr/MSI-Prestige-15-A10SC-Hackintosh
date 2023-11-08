@@ -11,18 +11,18 @@ OpenCore EFI for MSI Prestige 15 A10SC
 | Display | CMN N156HCE-EN1 FHD / Sharp SHP14A1 15.6' 3840x2160(4K) |
 | NVMe 1 | Kingston 512GB |
 | NVMe 2 | Kingston 512GB |
-| Audio | Realtek ACL298 |
+| Audio | Realtek ALC298 |
 | Wireless | DW1560 Broadcom BCM94352Z (default setting) / Intel AX201 |
 
 
 **OpenCore version**: [0.9.1](https://github.com/acidanthera/opencorepkg/releases)
 
 ## Compatible macOS versions
- - Ventura (13.5)
- - Monterey (12.6.8)
+ - Ventura (13.6)
+ - Monterey (12.7)
 
 ## What Works
- - Wi-Fi : DW1560 (out of the box) / Intel AX201
+ - Wi-Fi : DW1560 / Intel AX201 (default)
  - Bluetooth (see sleep/wakeup hint)
  - HDMI (thanks to @vomesk)
  - Internal/External audio jacks
@@ -76,21 +76,20 @@ OpenCore EFI for MSI Prestige 15 A10SC
 	- ComboJack_Installer/install.sh
 
 ## Credits
- - [[Kext] Lilu v1.6.7](https://github.com/acidanthera/Lilu)
- - [[Kext] WhateverGreen v1.6.6](https://github.com/acidanthera/WhateverGreen)
- - [[Kext] VirtualSMC/SMCBatteryManager/SMCProcessor/SMCSuperIO/SMCLightSensor v1.3.3](https://github.com/acidanthera/VirtualSMC)
- - [[Kext] AppleALC v1.8.4](https://github.com/acidanthera/AppleALC)
- - [[Kext] VerbStub v1.0.4](https://github.com/hackintosh-stuff/ComboJack/tree/master/ComboJack_Installer)
- - [[Kext] VoodooPS2Controller v2.3.6](https://github.com/acidanthera/VoodooPS2)
- - [[Kext] VoodooI2C v2.8](https://github.com/VoodooI2C/VoodooI2C)
- - [[Kext] CPUFriend v1.2.8](https://github.com/acidanthera/CPUFriend)
- - [[Kext] NoTouchID v1.0.4](https://github.com/al3xtjames/NoTouchID)
- - [[Kext] NVMeFix v1.1.1](https://github.com/acidanthera/NVMeFix)
- - [[Kext] IOElectrify v1.0.0](https://github.com/the-darkvoid/macOS-IOElectrify)
- - [[Kext] AirportBrcmFixup v2.1.8](https://github.com/acidanthera/AirportBrcmFixup)
- - [[Kext] BrcmPatchRAM/BlueToolFixup v2.6.8](https://github.com/acidanthera/BrcmPatchRAM)
- - [[Kext] AirportItlwm v2.2.0](https://github.com/OpenIntelWireless/itlwm)
- - [[Kext] IntelBluetoothFirmware v2.3.0](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
+ - [[Kext] Lilu](https://github.com/acidanthera/Lilu)
+ - [[Kext] WhateverGreen](https://github.com/acidanthera/WhateverGreen)
+ - [[Kext] VirtualSMC/SMCBatteryManager/SMCProcessor/SMCSuperIO/SMCLightSensor](https://github.com/acidanthera/VirtualSMC)
+ - [[Kext] AppleALC](https://github.com/acidanthera/AppleALC)
+ - ~~[[Kext] VerbStub](https://github.com/hackintosh-stuff/ComboJack/tree/master/ComboJack_Installer)~~
+ - [[Kext] VoodooPS2Controller](https://github.com/acidanthera/VoodooPS2)
+ - [[Kext] VoodooI2C](https://github.com/VoodooI2C/VoodooI2C)
+ - [[Kext] CPUFriend](https://github.com/acidanthera/CPUFriend)
+ - [[Kext] NVMeFix](https://github.com/acidanthera/NVMeFix)
+ - ~~[[Kext] IOElectrify](https://github.com/the-darkvoid/macOS-IOElectrify)~~
+ - [[Kext] AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup)
+ - [[Kext] BrcmPatchRAM/BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM)
+ - [[Kext] AirportItlwm](https://github.com/OpenIntelWireless/itlwm)
+ - [[Kext] IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
 
 
 
