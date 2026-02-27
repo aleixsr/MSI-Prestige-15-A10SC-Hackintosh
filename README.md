@@ -15,16 +15,15 @@ OpenCore EFI for MSI Prestige 15 A10SC
 | Wireless | DW1560 Broadcom BCM94352Z (default setting) / Intel AX201 |
 
 
-**OpenCore version**: [0.9.1](https://github.com/acidanthera/opencorepkg/releases)
+**OpenCore version**: [1.0.6](https://github.com/acidanthera/opencorepkg/releases)
 
 ## Compatible macOS versions
- - Ventura (13.6)
- - Monterey (12.7)
+ - Sequoia (15.7.4)
 
 ## What Works
- - Wi-Fi : DW1560 / Intel AX201 (default)
+ - Wi-Fi : Intel AX201 (Heliport.app)
  - Bluetooth (see sleep/wakeup hint)
- - HDMI (thanks to @vomesk)
+ - HDMI (thanks to @vomesk and SMBIOS setting)
  - Internal/External audio jacks
  - Sleep/Wake up
 
@@ -94,6 +93,8 @@ OpenCore EFI for MSI Prestige 15 A10SC
 
 
 ## Special Thanks to...
+ - https://github.com/mkyrosh/MSI-Prestige-15-A10SC--056FR---Sonoma---Hackintosh
+ - https://github.com/danvalentin-nichita/MSIP15-Sonoma
  - https://github.com/KerKerOgh/MSI-Prestige-15-Hackintosh
  - https://github.com/wgjas2/MSI-Prestige-15-Hackintosh
  - https://github.com/ueh-oaug/ComboJack
